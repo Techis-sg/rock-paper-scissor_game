@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root {
+  --main-color: white;
+  --color-sub: #28334aff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Itim', cursive;
+  font-weight: 500;
+  background-color: var(--main-color);
+}
+
+.heading {
+  margin: 50px 0;
+  text-align: center;
+  color: var(--color-sub);
+  font-size: 75px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-image {
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-image:hover {
+  top: -15px;
+}
+
+.card-text {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--color-sub);
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  font-size: 50px;
+}
+
+.message {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.dashboard {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.headindg-sub {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 400;
+}
