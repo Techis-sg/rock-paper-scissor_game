@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-:root {
-  --main-color: white;
-  --color-sub: #28334aff;
-}
-
 *,
 *::before,
 *::after {
@@ -14,12 +9,12 @@
 
 html {
   box-sizing: border-box;
+  zoom: 67%;
 }
 
 body {
   font-family: 'Itim', cursive;
   font-weight: 500;
-  background-color: var(--main-color);
 }
 
 .heading {
@@ -57,7 +52,7 @@ body {
 
 .card-text {
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 40px;
   color: var(--color-sub);
 }
@@ -72,12 +67,12 @@ body {
 .message {
   text-align: center;
   font-size: 50px;
-  font-weight: 500;
   margin-bottom: 20px;
 }
 
 .dashboard {
-  margin-top: 50px;
+  margin-top: -150px;
+  margin-right: -250px;
   display: flex;
   justify-content: center;
 }
@@ -90,13 +85,12 @@ body {
 }
 
 .headindg-sub {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
 p {
   margin-bottom: 10px;
-  font-size: 50px;
-  font-weight: 400;
+  font-size: 30px;
 }

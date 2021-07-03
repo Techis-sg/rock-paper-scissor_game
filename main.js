@@ -95,14 +95,14 @@ function game(playerSelect) {
 
   scorePlayer.textContent = playerScore;
   scoreComputer.textContent = computerScore;
-  message.textContent = roundResult;
+  message.innerHTML = roundResult;
   selectionPlayer.appendChild(createParagWithText(playerSelection));
   selectionComputer.appendChild(createParagWithText(computerSelection));
 
   if (playerScore >= 5 && computerScore < 5) {
-    message.textContent = 'Game Over. You Win!';
+    message.innerHTML = 'Game Over. You Win!';
   } else if (playerScore < 5 && computerScore >= 5) {
-    message.textContent = 'Game Over. You Lose!';
+    message.innerHTML = 'Game Over. You Lose! <br /> Refresh page to play again!';
   }
 }
 
